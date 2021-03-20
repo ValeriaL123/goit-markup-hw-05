@@ -183,10 +183,20 @@ margin-right: 10px;
 
 .link.contact:hover .contact-icon-envelope{
   fill:var(--accent-color);
+
+  transition-property: fill;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  
 }
 
 .link.contact:hover .contact-icon-smartphone{
   fill:var(--accent-color);
+
+  transition-property: fill;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ///////////Навигационное меню  КОНЕЦ */
@@ -225,6 +235,10 @@ margin-right: 10px;
 .link.menu:hover,
 .link.menu:focus {
   color: var(--accent-color);
+
+  transition-property: color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list .link.menu.current {
@@ -241,6 +255,10 @@ margin-right: 10px;
 .link.contact:hover,
 .link.contact:focus {
   color: var(--accent-color);
+
+  transition-property: color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ГЕРОЙ */
@@ -479,6 +497,10 @@ border-radius: 0px 0px 4px 4px;
 .thumb-social-item:hover .thumb-social-link,
 .thumb-social-item:focus .thumb-social-link{
   background-color:var(--accent-color);
+  
+  transition-property: background-color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -489,6 +511,10 @@ border-radius: 0px 0px 4px 4px;
 .thumb-social-link:hover .thumb-social-icon,
 .thumb-social-link:focus .thumb-social-icon{
   fill:#FFFFFF;
+
+  transition-property: fill;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   
 }
 
@@ -553,6 +579,10 @@ justify-content: center;
 .clients-list-link:focus{
   color:var(--accent-color);
   border-color: var(--accent-color);
+
+  transition-property: color,border-color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -620,8 +650,12 @@ display: inline-block;
   height: 44px;
 }
 .footer-wrap:hover,
-.footer-focus:hover{
-  background: var(--accent-color);
+.footer-wrap:focus{
+  background-color: var(--accent-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* ////// */
@@ -713,6 +747,10 @@ margin-bottom: 50px;
 .menu-section .btn:focus {
   color: #ffffff;
   background-color: var(--accent-color);
+
+  transition-property: background-color;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
@@ -737,6 +775,10 @@ margin-bottom: 50px;
 .portfolio>li:hover{
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
+
+  transition-property: box-shadow;
+  transition-duration: 250ms; 
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 
